@@ -1,0 +1,38 @@
+.movieCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.moviePoster {
+  height: 300px;
+  width: auto;
+}
+
+.movieTitle {
+  font-weight: 600;
+}
+
+.movieDate {
+  font-style: italic;
+}
+
+.movieOverview {
+  font-size: 0.8rem;
+}
+
+.movieBtn {
+  border: none;
+  padding: var(--spacing-XS);
+  border-radius: var(--border-radius);
+  margin-top: auto;
+  margin-bottom: var(--spacing-XS);
+  cursor: pointer;
+  color: var(--background-color);
+  transition: 0.3s ease;
+  font-weight: 700;
+
+  &:hover {
+    background-color: var(--accent-color);
+    color: var(--text-color);
+  }
+}
