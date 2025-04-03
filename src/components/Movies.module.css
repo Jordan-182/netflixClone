@@ -4,7 +4,11 @@
 
 .movieList {
   display: flex;
-  gap: var(--spacing-S);
+  gap: var(--spacing-XS);
   margin-top: var(--spacing-XS);
   overflow-x: scroll;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }

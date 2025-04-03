@@ -12,16 +12,16 @@ function Header() {
         <nav className={styles.headerNav}>
           <ul>
             <li>
-              <a href="#">Movies</a>
+              <a href="#">Films</a>
             </li>
             <li>
-              <a href="#">TV Shows</a>
+              <a href="#">Séries TV</a>
             </li>
             <li>
-              <a href="#">Recently added</a>
+              <a href="#">Ajouts récents</a>
             </li>
             <li>
-              <a href="#">My list</a>
+              <a href="#">Ma liste</a>
             </li>
           </ul>
         </nav>
