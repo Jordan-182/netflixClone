@@ -1,0 +1,10 @@
+.moviesSection {
+  padding: var(--spacing-XS);
+}
+
+.movieList {
+  display: flex;
+  gap: var(--spacing-S);
+  margin-top: var(--spacing-XS);
+  overflow-x: scroll;
+}

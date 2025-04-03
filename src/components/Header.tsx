@@ -12,10 +12,10 @@ function Header() {
         <nav className={styles.headerNav}>
           <ul>
             <li>
-              <a href="#">TV Shows</a>
+              <a href="#">Movies</a>
             </li>
             <li>
-              <a href="#">Movies</a>
+              <a href="#">TV Shows</a>
             </li>
             <li>
               <a href="#">Recently added</a>
