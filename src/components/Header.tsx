@@ -1,14 +1,11 @@
+import logo from "../assets/img/wildflixLogo.png";
 import styles from "./Header.module.css";
 
 function Header() {
   return (
     <>
       <header className={styles.header}>
-        <img
-          src="../src/assets/img/wildflixLogo.png"
-          alt="Logo Wildflix"
-          className={styles.headerLogo}
-        />
+        <img src={logo} alt="Logo Wildflix" className={styles.headerLogo} />
         <nav className={styles.headerNav}>
           <ul>
             <li>
