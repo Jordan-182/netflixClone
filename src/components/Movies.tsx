@@ -3,6 +3,7 @@ import MovieCard from "./MovieCard";
 import styles from "./Movies.module.css";
 
 const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
+console.log(import.meta.env.VITE_TMDB_API_KEY);
 const API_URL = `https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}&language=fr-FR&page=1`;
 
 interface Movie {
